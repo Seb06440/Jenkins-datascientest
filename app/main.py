@@ -3,4 +3,4 @@ from fastapi import FastAPI
 app = FastAPI()
 @app.get("/")
 def read_root():
-    return {"Hello": "We Love Devops methodologie !!"}
+    return {"Hello": "We Love Devops methodologie, is a beast!!"}
